@@ -43,6 +43,7 @@ In `_editables.content` we specify the toolbar options that editors will see in 
     > `mkdocs` is already installed on the CloudCannon build image, so the install command is only needed for our theme. If you removed `theme: material` from `mkdocs.yml`, you could leave the install field blank.
 
     > `build` is the default directory that Docusaurus will use for its output.
+
     > Additionally, adding `node_modules/` in **Preserved Paths** will help speed up subsequent builds.
 
 ## Done!
